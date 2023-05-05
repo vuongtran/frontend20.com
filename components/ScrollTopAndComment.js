@@ -22,9 +22,9 @@ const ScrollTopAndComment = () => {
   }
   return (
     <div
-      className={`fixed right-8 bottom-8 hidden flex-col gap-3 ${show ? 'md:flex' : 'md:hidden'}`}
+      className={`fixed bottom-8 right-8 hidden flex-col gap-3 ${show ? 'md:flex' : 'md:hidden'}`}
     >
-      {siteMetadata.comment.provider && (
+      {/* {siteMetadata.comment.provider && (
         <button
           aria-label="Scroll To Comment"
           type="button"
@@ -39,7 +39,7 @@ const ScrollTopAndComment = () => {
             />
           </svg>
         </button>
-      )}
+      )} */}
       <button
         aria-label="Scroll To Top"
         type="button"
